@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body{
+  background-color: #f9f9f9;
+}
+.mobile-test, #menuSmall, .mobile {
+  display: none;
+}
+
+  li{
+    list-style: none;  
+  }
+
+  header{
+    background-color: rgb(255, 114, 185);
+  
+  }
+#grid-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#grid-container > img{
+    width: 80px;
+    padding: 5px;
+}
+#form-header{
+    width: 50pc;
+    margin: 20px;
+}
+.thanh-search{
+    width: 35pc;
+    height: 2.5pc;
+    outline: none;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+}
+.nut-search{
+    width: 2pc;
+    height: 2.5pc;
+    margin-left: -5px ;
+    font-size: 15px;
+    border: none;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+.menu{
+    right: 0;
+    margin: 10px;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+  transition: all 0.5s ease;
+  color: rgb(255, 146, 164);
+  background-color: #fff;
+}
+/*==============================================================================*/
+#nav-list{
+  background-color: rgb(255, 146, 164);
+
+}
+#nav-list li{
+  margin-top: 1pc;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.nav-link{
+  margin: 5px;
+
+}
+#home, #menu1 #menu2{
+  width: 107%;
+  margin-left: -18px;
+  margin-top: -10px;
+}
+/*====================================================================================*/
+
+footer {
+  background-image: url(/images/brfooter.jpg);
+  background-size: cover;
+  background-color: hsla(0, 0%, 24%, 0.379);
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: no-repeat;
+  box-shadow: inset 2px 1px 15px 5px gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+
+.map-container {
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  float: right;
+}
+
+.footer-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.footer-content {
+  width: 50%;
+  margin: 10px;
+}
+.footer-content > h3{
+  font-size: 3pc;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+
+.footer-content p {
+  font-size: 18px;
+  margin-left: 1.5pc;
+  color: #fff;
+}
+/*===============================================================================*/
+@media all and (min-width: 240px) and (max-width: 580px)  { 
+  #grid-container img{
+    width: 70px;
+    height: 70px;
+  }
+    #form-header {
+      display: none;
+    }
+    #form-header, .thanh-search{
+      width: 130px;
+      margin-left: 10px;
+    }
+    .menu {
+        display: none;
+    } 
+    #menuSmall{
+      display: block;
+      margin-top: 1.5pc;
+      margin-right: 10px;
+    }
+    .overlay{
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      animation: fadeIn linear 0.3s;
+    }
+    .mobile{
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 250px;
+      background-color: #fff;
+      z-index: 1;
+      transform: translateX(100%);
+      opacity: 0;
+      transition: all linear 0.2s;
+    }
+    .menu-mobile{
+      margin-top: 5pc;
+      margin-right: 1pc;
+    }
+    .mobile-link{
+      text-decoration: none;
+      margin-left: 3pc;
+      color: #333;
+      display: block;
+      padding: 8px 0;
+      font-size: 25px;
+    }
+    .mobile-close >i{
+      width: 28px;
+      height: 28px;
+      color: #666;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+    .nav-input:checked ~ .mobile{
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    .nav-input{
+      display: none;
+    }
+    .nav-input ~ .overlay{
+      display: block;
+    }
+    .fa{
+      font-size: 35px;
+    }
+    @keyframes fadeIn {
+      form{
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+      }
+      
+    }
+  }

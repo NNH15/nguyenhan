@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body{
+  background-color: #f9f9f9;
+}
+.mobile-test, #menuSmall, .mobile {
+  display: none;
+}
+
+  li{
+    list-style: none;  
+  }
+
+  header{
+    background-color: rgb(255, 114, 185);
+  
+  }
+#grid-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#grid-container > img{
+    width: 80px;
+    padding: 5px;
+}
+#form-header{
+    width: 50pc;
+    margin: 20px;
+}
+.thanh-search{
+    width: 35pc;
+    height: 2.5pc;
+    outline: none;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+}
+.nut-search{
+    width: 2pc;
+    height: 2.5pc;
+    margin-left: -5px ;
+    font-size: 15px;
+    border: none;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+.menu{
+    right: 0;
+    margin: 10px;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+  transition: all 0.5s ease;
+  color: rgb(255, 146, 164);
+  background-color: #fff;
+}
+/*====================================================*/
+.video-gt{
+    background-image: url(/images/brfooter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 37pc;
+    justify-content: space-between;
+    
+}
+.video-gt-dt{
+  float: right;
+  width: 54%;
+}
+.video-gt-dt video{
+  margin-top: 5pc ;
+    margin-bottom: 35px;
+    margin-right: 5px ;
+    width: 99%;
+    border: none;
+    border-radius: 20px;
+    height: auto;
+    outline: none;
+}
+.video-text{
+ background-image: linear-gradient(-90deg, rgba(109, 109, 109, 0.001), rgba(90, 87, 87, 0.488));
+  width: 44%;
+  color: #fff;
+}
+.video-text h1{
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 13pc;
+  margin-left: 1.2pc;
+  margin-bottom: 30px;
+}
+.video-text h4{
+  margin-top: 10px;
+  font-size: 32px;
+  margin-top: 3pc;
+  margin-left: 2.5pc;
+  margin-bottom: 30px;
+}
+
+
+/*=======================================================================*/
+#tour-noi-bat > h2{
+    font-size: 45px;
+    height: 3pc;
+    text-align: center;
+    color: rgb(252, 113, 185);
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px;
+  }
+  .thanhhr2, .dac-san{
+    border: 2px solid;
+    color: red;
+    margin-top: 2pc;
+    margin-left: 35pc;
+    margin-right: 35pc;
+  }
+  .tour-tong-mau{
+    background-color: rgb(255, 154, 187);
+    padding-top: 10px;
+    padding-bottom: 28px;
+  }
+  .tour-tong{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 3pc;
+  }
+  .title{
+    width: 20pc;
+    border: 2px solid rgb(215, 215, 215);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    line-height: 33px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .title img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+  
+  }
+  .title li{
+    padding: 10px;
+  }
+  .title li a{
+    text-decoration: none;
+  }
+  .title-text3{
+    font-size: 16px;
+    color: red;
+  }
+  .title-text1{
+    text-align: center;
+    font-size: 20px;
+  }
+  .title-text{
+    font-size: 13px;
+  }
+  #tour-noi-bat .title:hover{
+    transform: translateY(-15px);
+    transition: all 0.3 ease;
+    box-shadow: rgb(171, 171, 171) 1px 1px 30px 0;
+  }
+  .title-text1 a:hover{
+    color: blue;
+  }
+  /*==============================================================*/
+  .menu-mon{
+    background-color: #f9f9f9;
+
+  }
+  .menu-mon > h2{
+    font-size: 45px;
+    height: 3pc;
+    text-align: center;
+    color: rgb(252, 113, 185);
+    font-weight: bold;
+    margin: 25px;
+    padding: 5px;
+  }
+  .title-text1 a{
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  hr{
+    border: 0.5px solid rgb(194, 194, 194);
+  }
+  .menu-dac-san{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+    
+  }
+  .xemthem{
+    cursor: pointer;
+  }
+  /*==============================================*/
+  footer {
+    background-image: url(/images/brfooter.jpg);
+    background-size: cover;
+    background-color: hsla(0, 0%, 24%, 0.379);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 1px 15px 5px gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  
+  .map-container {
+    width: 30%;
+    height: 250px;
+    margin: 10px;
+    float: right;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .footer-content {
+    width: 50%;
+    margin: 10px;
+  }
+  .footer-content > h3{
+    font-size: 3pc;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  
+  .footer-content p {
+    font-size: 18px;
+    margin-left: 1.5pc;
+    color: #fff;
+  }
+  /*=================================================tab================================*/
+  /* điện thoại dọc */
+@media all and (min-width: 240px) and (max-width: 580px)  { 
+  #grid-container img{
+    width: 70px;
+    height: 70px;
+  }
+    #form-header {
+      display: none;
+    }
+    #form-header, .thanh-search{
+      width: 130px;
+      margin-left: 10px;
+    }
+    .menu {
+        display: none;
+    } 
+    #menuSmall{
+      display: block;
+      margin-top: 1.5pc;
+      margin-right: 10px;
+    }
+    .overlay{
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      animation: fadeIn linear 0.3s;
+    }
+    .mobile{
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 250px;
+      background-color: #fff;
+      z-index: 1;
+      transform: translateX(100%);
+      opacity: 0;
+      transition: all linear 0.2s;
+    }
+    .menu-mobile{
+      margin-top: 5pc;
+      margin-right: 1pc;
+    }
+    .mobile-link{
+      text-decoration: none;
+      margin-left: 3pc;
+      color: #333;
+      display: block;
+      padding: 8px 0;
+      font-size: 25px;
+    }
+    .mobile-close >i{
+      width: 28px;
+      height: 28px;
+      color: #666;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+    .nav-input:checked ~ .mobile{
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    .nav-input{
+      display: none;
+    }
+    .nav-input ~ .overlay{
+      display: block;
+    }
+    .fa{
+      font-size: 35px;
+    }
+    @keyframes fadeIn {
+      form{
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+      }
+      
+    }
+
+
+    .video-gt{
+      display: flex;
+      flex-direction: column;
+    }
+    .video-text{
+      background-image: none;
+      width: 100%;
+    }
+    .video-text h1{
+      margin-top: 2.5pc;
+      text-align: center;
+    }
+    .video-text h4{
+      margin-left: 1.5pc;
+      font-size: 25px;
+    }
+    .video-gt-dt{
+      width: 100%;
+    }
+    .video-gt-dt video{
+      margin-top: 10px;
+    }
+    #tour-noi-bat h2{
+      font-size: 35px;
+      margin-top: 10px;
+      margin-bottom: 1px;
+    }
+    .tour-tong{
+      flex-direction: column;
+      margin-left: 2pc ;
+    }
+    .menu-mon h2{
+      margin-top: 0;
+      margin-bottom: 0.5pc;
+    }
+    .menu-dac-san{
+      flex-direction: column;
+      margin-left: 0.2pc ;
+    }
+    hr{
+      display: none;
+    }
+    footer{
+      flex-direction: column-reverse;
+    }
+    .map-container{
+      width: 100%;
+    }
+    .footer-content{
+      width: 100%;
+    }
+    .video-gt{
+      display: flex;
+      flex-direction: column;
+    }
+    .video-text{
+      background-image: none;
+      width: 100%;
+    }
+    .video-text h1{
+      margin-top: 2.5pc;
+      text-align: center;
+    }
+    .video-text h4{
+      margin-left: 1.5pc;
+      font-size: 25px;
+    }
+    .video-gt-dt{
+      width: 100%;
+    }
+    .video-gt-dt video{
+      margin-top: 10px;
+    }
+}
+
+/* điện thoại ngang */
+@media all and (max-width: 1000px) and (min-width: 600px) {
+  #menuSmall {
+        display: none;
+    }
+    #grid-container img{
+    width: 70px;
+    height: 70px;
+  }
+    #form-header {
+      width: 15pc;
+    }
+    #form-header .thanh-search{
+      width: 130px;
+      margin-left: 10px;
+    }
+    .menu{
+      font-size: 18;
+    }
+    .video-gt{
+      display: flex;
+      flex-direction: column;
+    }
+    .video-text{
+      background-image: none;
+      width: 100%;
+    }
+    .video-text h1{
+      margin-top: 2.5pc;
+      text-align: center;
+    }
+    .video-text h4{
+      margin-left: 1.5pc;
+      font-size: 28px;
+    }
+    .video-gt-dt{
+      width: 100%;
+    }
+    .video-gt-dt video{
+      margin-top: 10px;
+    }
+    .tour-tong{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .menu-dac-san{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;     
+    }
+
+}
+      /* Máy tính bảng */
+      @media all and (min-width: 768px) and (max-width: 950px) {
+        #menuSmall {
+        display: none;
+    }
+    
+    .video-gt{
+      height: 45pc;
+    }
+    .video-text h1{
+      margin-top: 2pc;
+      text-align: center;
+    }
+    .video-text h4{
+      margin-left: 5pc;
+      margin-right: 4pc;
+      text-align: center;
+    }
+    .video-gt-dt{
+      width: 95%;
+      text-align: center;
+      margin-left: 1.3pc;
+    }
+    .tour-tong{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .menu-dac-san{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;     
+    }
+}
